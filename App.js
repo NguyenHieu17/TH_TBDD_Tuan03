@@ -1,20 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View,Image, TouchableOpacity} from 'react-native';
+import AppOne from './view/AppOne.js'
+import AppTwo from './view/AppTwo.js';
+import AppThree from './view/AppThree.js';
+import AppFour from './view/AppFour.js';
+import AppFive from './view/AppFive.js';
+import AppSix from './view/AppSix.js';
+import AppSeven from './view/AppSeven.js';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    // <AppOne/>
+    // <AppTwo/>
+    // <AppThree/>
+    // <AppFour/>
+    // <AppFive/>
+    // <AppSix/>
+    <AppSeven/>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
